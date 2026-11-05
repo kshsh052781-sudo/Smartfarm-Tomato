@@ -1,0 +1,148 @@
+{
+ "daily_summary_1105": {
+  "max_day_temp": 29.6,
+  "avg_night_temp": 14.3,
+  "total_irrigation_l": 412.0,
+  "irrigation_per_plant_l": 0.824,
+  "total_drainage_l": 99.0,
+  "drain_rate_pct": 24.03,
+  "harvest_kg": 48.0,
+  "marketable_kg": 44.0,
+  "market_avg_price": 4850,
+  "expected_income": 180862.0,
+  "alert_count": 4
+ },
+ "TC-01": 412.0,
+ "TC-02": 0.824,
+ "TC-03": 24.03,
+ "TC-04": 1652.0,
+ "TC-05": {
+  "stage": "수확기",
+  "ec_min": 2.0,
+  "ec_max": 2.4
+ },
+ "TC-06": {
+  "2.2": "ok",
+  "2.6": "caution"
+ },
+ "alerts": [
+  {
+   "alert_id": 1,
+   "cycle_id": 1,
+   "standard_id": 10,
+   "parameter": "temperature",
+   "level": "warning",
+   "threshold_value": 10.0,
+   "peak_value": 9.8,
+   "started_at": "2026-11-05 03:00",
+   "ended_at": "2026-11-05 03:01",
+   "acknowledged_at": null,
+   "memo": null
+  },
+  {
+   "alert_id": 2,
+   "cycle_id": 1,
+   "standard_id": 7,
+   "parameter": "temperature",
+   "level": "caution",
+   "threshold_value": 21.0,
+   "peak_value": 14.6,
+   "started_at": "2026-11-05 06:00",
+   "ended_at": "2026-11-05 08:40",
+   "acknowledged_at": null,
+   "memo": null
+  },
+  {
+   "alert_id": 4,
+   "cycle_id": 1,
+   "standard_id": 4,
+   "parameter": "ec",
+   "level": "caution",
+   "threshold_value": 2.4,
+   "peak_value": 2.6,
+   "started_at": "2026-11-05 10:36",
+   "ended_at": "2026-11-05 11:12",
+   "acknowledged_at": null,
+   "memo": null
+  },
+  {
+   "alert_id": 3,
+   "cycle_id": 1,
+   "standard_id": 7,
+   "parameter": "temperature",
+   "level": "caution",
+   "threshold_value": 28.0,
+   "peak_value": 29.6,
+   "started_at": "2026-11-05 13:10",
+   "ended_at": "2026-11-05 15:05",
+   "acknowledged_at": null,
+   "memo": null
+  }
+ ],
+ "TC-07": [
+  {
+   "alert_id": 3,
+   "cycle_id": 1,
+   "standard_id": 7,
+   "parameter": "temperature",
+   "level": "caution",
+   "threshold_value": 28.0,
+   "peak_value": 29.6,
+   "started_at": "2026-11-05 13:10",
+   "ended_at": "2026-11-05 15:05",
+   "acknowledged_at": null,
+   "memo": null
+  }
+ ],
+ "TC-08": {
+  "minutes_over_28": 107,
+  "alerts_in_window": 1
+ },
+ "TC-09": {
+  "2026-11-05 15:00": [
+   "open",
+   27.8
+  ],
+  "2026-11-05 15:04": [
+   "open",
+   27.6
+  ],
+  "2026-11-05 15:05": [
+   "closed",
+   27.4
+  ]
+ },
+ "TC-10": [
+  {
+   "alert_id": 1,
+   "cycle_id": 1,
+   "standard_id": 10,
+   "parameter": "temperature",
+   "level": "warning",
+   "threshold_value": 10.0,
+   "peak_value": 9.8,
+   "started_at": "2026-11-05 03:00",
+   "ended_at": "2026-11-05 03:01",
+   "acknowledged_at": null,
+   "memo": null
+  }
+ ],
+ "TC-11": 27.0,
+ "TC-12": {
+  "gap_min": 6.0,
+  "offline": true
+ },
+ "TC-13": {
+  "marketable_kg": 171.0,
+  "expected_income": 702896.0
+ },
+ "TC-14": {
+  "actual_income": 735300.0,
+  "display": "actual"
+ },
+ "TC-15": {
+  "alert_count_view": 4,
+  "alert_rows": 4
+ },
+ "notifications": 4
+}
